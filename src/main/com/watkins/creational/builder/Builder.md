@@ -54,5 +54,5 @@ modifying the way it's constructed. It's particularly useful when dealing with c
 parameters or configurations.
 
 NOTES:
-- the client will pass the direct an instantiated builder object as well as the data necessary to build the product
-- it is also common to implement the builder class as an inner static class in the product class
+- the client will pass the director an instantiated builder object as well as the data necessary to build the product
+- it is also common to implement the builder class as an inner static class inside the product class
