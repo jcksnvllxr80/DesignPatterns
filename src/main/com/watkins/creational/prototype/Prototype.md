@@ -76,6 +76,14 @@ Use the Prototype pattern when:
 - Define a common interface or base class for prototypes.
 - Implement the cloning mechanism in concrete prototype classes.
 - Use a registry to manage and retrieve prototype instances efficiently.
+- Pay close attention to prototype property immutability; mutable objects need deep copy whereas immutable can get 
+by with shallow
+- make sure to reset the mnutable state of the object before returning the prototype otherwise the objects may not act 
+the same
+- clone method is protected
+- prototype needs to implement `Cloneable`
+- may want to have a prototype registry to keep track of the clones for easy access to them
+- prototypes are very useful when working with `composite` and `decorator` patterns
 
 ### Related Patterns
 - **Abstract Factory**: Similar in providing an interface for creating families of related or dependent objects but 
