@@ -30,8 +30,8 @@ Here's how the pattern works:
 
 - **Creator:** This is an abstract class or interface that declares the factory method, which returns an object of type 
 Product. It may also contain other methods that use the Product returned by the factory method.
-- **ConcreteCreator:** This is a subclass of Creator that implements the factory method. It decides which subclass 
-of Product to instantiate and return.
+- **ConcreteCreator:** This is a subclass of Creator that implements the factory method. It creates an instance of
+itself and returns it.
 - **Product:** This is an abstract class or interface that defines the interface of objects the factory method creates.
 - **ConcreteProduct:** These are the subclasses of Product that provide specific implementations.
 
@@ -42,9 +42,8 @@ different types of Product objects based on specific requirements.
 
 This pattern is particularly useful in scenarios where:
 
-- The exact types of objects to be created may not be known at compile time.
-- The client code should be unaware of the specific classes it is instantiating.
-- The creation process may vary or need to be customized by subclasses.
+- there may be future additions to a product inheritance hierarchy
+- delegate the objection instantiation to subclasses is desired
 
 By using the Factory Method pattern, you can achieve a higher level of abstraction and flexibility in your code, 
 promoting easier maintenance, scalability, and code reuse.
