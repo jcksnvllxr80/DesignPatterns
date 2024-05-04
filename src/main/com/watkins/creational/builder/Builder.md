@@ -28,7 +28,7 @@ classDiagram
     ConcreteBuilder --> Product
 ```
 The Builder Pattern is a creational design pattern used to construct complex objects step by step. 
-It removes the complexity of constructing an object into a dedicated builder class for that object type.
+It moves the complexity of constructing an object from the client into a dedicated builder class for that object type.
 
 Parts of the Builder Pattern:
 
