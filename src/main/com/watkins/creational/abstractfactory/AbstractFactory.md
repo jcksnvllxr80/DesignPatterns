@@ -41,7 +41,7 @@ classDiagram
 **In the diagram:**
 - **AbstractFactory** is an abstract class that declares the factories for creating AbstractProductA and 
 AbstractProductB
-- **ConcreteFactory and ConcreteFactory2** are concrete classes that implement AbstractFactory
+- **ConcreteFactory1 and ConcreteFactory2** are concrete classes that implement AbstractFactory
 - **ConcreteFactory1** creates ProductA1 and ProductB1
 - **ConcreteFactory2** creates ProductA2 and ProductB2
 - **AbstractProductA and AbstractProductB** are abstract classes that define products to be created
