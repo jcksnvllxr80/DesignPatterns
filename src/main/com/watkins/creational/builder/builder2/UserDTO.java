@@ -1,9 +1,8 @@
-package main.com.watkins.creational.builder2;
+package main.com.watkins.creational.builder.builder2;
 
 
 import java.time.LocalDate;
 import java.time.Period;
-import java.time.temporal.ChronoUnit;
 
 import main.com.watkins.creational.builder.Address;
 

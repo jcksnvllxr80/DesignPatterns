@@ -1,10 +1,10 @@
-package main.com.watkins.creational.builder2;
+package main.com.watkins.creational.builder.builder2;
 
 import java.time.LocalDate;
 
 import main.com.watkins.creational.builder.Address;
 import main.com.watkins.creational.builder.User;
-import main.com.watkins.creational.builder2.UserDTO.UserDTOBuilder;
+import main.com.watkins.creational.builder.builder2.UserDTO.UserDTOBuilder;
 
 public class Client {
 
