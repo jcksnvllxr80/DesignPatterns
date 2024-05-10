@@ -1,7 +1,8 @@
 # Object Pool
 
 When a lot of objects which are expensive to create are needed, an object pool is useful, but it can hurt your 
-applications performance if object pool is not implemented correctly and carefully.
+applications performance if object pool is not implemented correctly and carefully. Pooling objs is only useful when the 
+objects involve costly initialization.
 
 ```mermaid
 classDiagram
@@ -30,3 +31,11 @@ classDiagram
 - how to handle when all objects in pool are currently being used
   - wait for an object to become free if limited resources 
   - create a new object
+
+## keep in mind
+- resetting the object should not be a costly operation or we lose the benefits of the pattern
+- can pre-cache some objects when the pool is created, ao objs are ready when requested; will increase startup time and 
+system memory
+- the synchronization should consider the reset time needed as to not block other operations
+- dont pool long lived objects (objs that a user will use for a long time). this can negatively affect the application
+- dont use object pool just to try to save on memory
