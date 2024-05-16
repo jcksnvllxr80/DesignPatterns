@@ -18,49 +18,6 @@ that implements the target interface.
 2. Object adapter [preferred adapter pattern]  
    **adapter** implements the target interface, but "*has a*" (composition) Adaptee
 
-### Class Adapter Pattern UML
+### Class Adapter Pattern [UML](./classadapter/ClassAdapter.md)
 
-```mermaid
-classDiagram
-    class Target {
-        <<interface>>
-        + operation(): void
-    }
-    class Adaptee {
-        + myOperation(): void
-    }
-    class Adapter {
-        + operation(): void
-    }
-    class Client
-
-    Target <|.. Adapter
-    Adapter --|> Adaptee
-    Client --> Target
-    
-    note for Adapter "this.myOperation()"
-```
-
-### Object Adapter Pattern UML
-
-```mermaid
-classDiagram
-    class Target {
-        <<interface>>
-        + operation(): void
-    }
-    class Adaptee {
-        + myOperation(): void
-    }
-    class Adapter {
-        - adaptee: Adaptee
-        + operation(): void
-    }
-    class Client
-
-    Target <|.. Adapter
-    Adapter *--|> Adaptee
-    Client --> Target
-    
-    note for Adapter "adaptee.myOperation()"
-```
+### Object Adapter Pattern [UML](./objectadapter/ObjectAdapter.md)
