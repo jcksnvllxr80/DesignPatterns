@@ -3,6 +3,16 @@
 This code comes from following along with a 
 [Udemy course on Design Patterns in Java](https://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects)
 
+---
+
+## Pattern Categories
+
+1. [Behavioral](src/main/com/watkins/behavioral/Behavioral.md)
+2. [Creational](src/main/com/watkins/creational/Creational.md)
+3. [Structural](src/main/com/watkins/structural/Structural.md)
+
+---
+
 ## SOLID Principles
 
 ### 1. Single Responsibility Principle (SRP)
