@@ -13,3 +13,4 @@ classes.
 3. [Composite](composite/Composite.md)
 4. [Decorator](decorator/Decorator.md)
 5. [Facade](facade/Facade.md)
+6. [Flyweight](flyweight/Flyweight.md)
