@@ -14,3 +14,4 @@ classes.
 4. [Decorator](decorator/Decorator.md)
 5. [Facade](facade/Facade.md)
 6. [Flyweight](flyweight/Flyweight.md)
+7. [Proxy](proxy/Proxy.md)
