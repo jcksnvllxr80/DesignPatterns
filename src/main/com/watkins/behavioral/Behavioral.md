@@ -10,3 +10,4 @@ behaviors and enhance flexibility in distributing responsibilities.
 
 1. [Chain of Responsibility](chainofresponsibility/ChainOfResponsibility.md)
 2. [Command](command/Command.md)
+3. [Interpreter](interpreter/Interpreter.md)
